@@ -6,11 +6,11 @@ require 'arduino/bundler/version'
 Gem::Specification.new do |spec|
   spec.name          = "arduino-bundler"
   spec.version       = Arduino::Bundler::VERSION
-  spec.authors       = ["Orel Sokolov"]
+  spec.authors       = ["Oleg Orlov"]
   spec.email         = ["orelcokolov@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Simple library manager for Arduino (and other boards)"
+  spec.description   = "Simple library manager for Arduino (and other boards)"
+  spec.homepage      = "http://raphy-bsu.github.io/arduino-bundler/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
