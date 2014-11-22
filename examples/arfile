@@ -1,0 +1,29 @@
+
+package: "hc-sr04"
+author: "Oleg Orlov"
+boards:
+  - arduino-uno
+  - arduino-due
+shield:
+  name: 'hc-sr04'
+  vendor: 'unknown'
+  class: sensor
+resources:
+  uno:
+    timers:
+      - 1
+      - 2
+      - 3
+    pins-float-count: 5
+    pins-fixed:
+      - 1
+      - 2
+      - 3
+    interrupts:
+      - 0
+      - 1
+dependencies:
+  git:
+    'arduino-package-repository':
+      - blink
+
