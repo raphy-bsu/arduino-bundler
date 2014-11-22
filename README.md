@@ -24,6 +24,10 @@ Or install it yourself as:
 
     $ gem install arduino-bundler
 
+## TODO
+
+* Describe resource usage such as timers, pins, interrupts, etc
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/arduino-bundler/fork )
